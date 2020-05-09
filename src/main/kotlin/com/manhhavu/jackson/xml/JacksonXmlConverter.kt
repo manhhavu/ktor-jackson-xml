@@ -25,7 +25,7 @@ const val XML_TEXT_ELEMENT_NAME: String = "innerText"
 
 /**
  *    install(ContentNegotiation) {
- *       register(ContentType.Application.xml, JacksonXmlConverter())
+ *       register(ContentType.Application.Xml, JacksonXmlConverter())
  *    }
  *
  *    to be able to modify the xmlMapper (eg. using specific modules and/or serializers and/or
